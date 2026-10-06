@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-06T12:13:41.015Z",
+  "generatedAt": "2026-10-06T12:22:30.894Z",
   "repo": {
     "connectorId": 84,
     "repoSlug": "chsh-01/BlankRepo",
@@ -46,6 +46,13 @@
       "name": "t1234",
       "kind": "test-case",
       "repoPath": "TC-15-t1234.spec.ts"
+    },
+    {
+      "assetId": 11591,
+      "displayId": "TC-16",
+      "name": "t56789",
+      "kind": "test-case",
+      "repoPath": "TC-16-t56789.spec.ts"
     }
   ],
   "files": [
@@ -63,6 +70,14 @@
       "displayId": "TC-15",
       "name": "t1234",
       "repoPath": "TC-15-t1234.spec.ts",
+      "parentAssetId": 9473
+    },
+    {
+      "assetId": 11591,
+      "assetKind": "test-case",
+      "displayId": "TC-16",
+      "name": "t56789",
+      "repoPath": "TC-16-t56789.spec.ts",
       "parentAssetId": 9473
     },
     {
