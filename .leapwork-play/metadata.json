@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-06T12:22:30.894Z",
+  "generatedAt": "2026-10-06T12:24:38.413Z",
   "repo": {
     "connectorId": 84,
     "repoSlug": "chsh-01/BlankRepo",
@@ -34,6 +34,13 @@
       "repoPath": "TC-9-CheckOwnerNamereflect.spec.ts"
     },
     {
+      "assetId": 11258,
+      "displayId": "TC-11",
+      "name": "CS_new",
+      "kind": "test-case",
+      "repoPath": "TC-11-CS_new.spec.ts"
+    },
+    {
       "assetId": 11261,
       "displayId": "TC-14",
       "name": "CS_new1 - Copy",
@@ -56,6 +63,14 @@
     }
   ],
   "files": [
+    {
+      "assetId": 11258,
+      "assetKind": "test-case",
+      "displayId": "TC-11",
+      "name": "CS_new",
+      "repoPath": "TC-11-CS_new.spec.ts",
+      "parentAssetId": 9473
+    },
     {
       "assetId": 11261,
       "assetKind": "test-case",
