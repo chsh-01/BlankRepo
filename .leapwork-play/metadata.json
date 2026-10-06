@@ -1,63 +1,33 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-06T10:00:02.460Z",
+  "generatedAt": "2026-10-06T11:30:51.230Z",
   "repo": {
-    "connectorId": 84,
+    "connectorId": 87,
     "repoSlug": "chsh-01/BlankRepo",
     "baseBranch": "main"
   },
   "team": {
-    "assetId": 9473,
+    "assetId": 11563,
     "displayId": "TM-1",
-    "name": "12"
+    "name": "CSTeam"
   },
   "tree": [
     {
-      "assetId": 9497,
-      "displayId": "TC-6",
-      "name": "AddMultipleProductsToCart",
+      "assetId": 11584,
+      "displayId": "TC-8",
+      "name": "[C46714]_ServiceNow_OrderListedSoftware",
       "kind": "test-case",
-      "repoPath": "TC-6-AddMultipleProductsToCart.spec.ts"
-    },
-    {
-      "assetId": 9496,
-      "displayId": "TC-5",
-      "name": "AddSingleProductToCart",
-      "kind": "test-case",
-      "repoPath": "TC-5-AddSingleProductToCart.spec.ts"
-    },
-    {
-      "assetId": 10702,
-      "displayId": "TC-9",
-      "name": "CheckOwnerNamereflect",
-      "kind": "test-case",
-      "repoPath": "TC-9-CheckOwnerNamereflect.spec.ts"
+      "repoPath": "TC-8-[C46714]_ServiceNow_OrderListedSoftware.spec.ts"
     }
   ],
   "files": [
     {
-      "assetId": 9496,
+      "assetId": 11584,
       "assetKind": "test-case",
-      "displayId": "TC-5",
-      "name": "AddSingleProductToCart",
-      "repoPath": "TC-5-AddSingleProductToCart.spec.ts",
-      "parentAssetId": 9473
-    },
-    {
-      "assetId": 9497,
-      "assetKind": "test-case",
-      "displayId": "TC-6",
-      "name": "AddMultipleProductsToCart",
-      "repoPath": "TC-6-AddMultipleProductsToCart.spec.ts",
-      "parentAssetId": 9473
-    },
-    {
-      "assetId": 10702,
-      "assetKind": "test-case",
-      "displayId": "TC-9",
-      "name": "CheckOwnerNamereflect",
-      "repoPath": "TC-9-CheckOwnerNamereflect.spec.ts",
-      "parentAssetId": 9473
+      "displayId": "TC-8",
+      "name": "[C46714]_ServiceNow_OrderListedSoftware",
+      "repoPath": "TC-8-[C46714]_ServiceNow_OrderListedSoftware.spec.ts",
+      "parentAssetId": 11563
     }
   ]
 }
