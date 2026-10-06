@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-06T09:55:07.962Z",
+  "generatedAt": "2026-10-06T09:58:36.606Z",
   "repo": {
-    "connectorId": 83,
+    "connectorId": 84,
     "repoSlug": "chsh-01/BlankRepo",
     "baseBranch": "main"
   },
@@ -13,20 +13,20 @@
   },
   "tree": [
     {
-      "assetId": 9497,
-      "displayId": "TC-6",
-      "name": "AddMultipleProductsToCart",
+      "assetId": 9496,
+      "displayId": "TC-5",
+      "name": "AddSingleProductToCart",
       "kind": "test-case",
-      "repoPath": "TC-6-AddMultipleProductsToCart.spec.ts"
+      "repoPath": "TC-5-AddSingleProductToCart.spec.ts"
     }
   ],
   "files": [
     {
-      "assetId": 9497,
+      "assetId": 9496,
       "assetKind": "test-case",
-      "displayId": "TC-6",
-      "name": "AddMultipleProductsToCart",
-      "repoPath": "TC-6-AddMultipleProductsToCart.spec.ts",
+      "displayId": "TC-5",
+      "name": "AddSingleProductToCart",
+      "repoPath": "TC-5-AddSingleProductToCart.spec.ts",
       "parentAssetId": 9473
     }
   ]
