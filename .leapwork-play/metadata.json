@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-06T12:24:38.413Z",
+  "generatedAt": "2026-10-07T14:17:51.622Z",
   "repo": {
     "connectorId": 84,
     "repoSlug": "chsh-01/BlankRepo",
@@ -25,6 +25,13 @@
       "name": "AddSingleProductToCart",
       "kind": "test-case",
       "repoPath": "TC-5-AddSingleProductToCart.spec.ts"
+    },
+    {
+      "assetId": 11593,
+      "displayId": "AG-1",
+      "name": "agent2",
+      "kind": "agent",
+      "repoPath": "AG-1-agent2.agent.json"
     },
     {
       "assetId": 10702,
@@ -63,6 +70,14 @@
     }
   ],
   "files": [
+    {
+      "assetId": 11593,
+      "assetKind": "agent",
+      "displayId": "AG-1",
+      "name": "agent2",
+      "repoPath": "AG-1-agent2.agent.json",
+      "parentAssetId": 9473
+    },
     {
       "assetId": 11258,
       "assetKind": "test-case",
