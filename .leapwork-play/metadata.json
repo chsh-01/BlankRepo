@@ -1,138 +1,95 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-07T14:17:51.622Z",
+  "generatedAt": "2026-10-30T15:11:11.089Z",
   "repo": {
-    "connectorId": 84,
+    "connectorId": 465,
     "repoSlug": "chsh-01/BlankRepo",
     "baseBranch": "main"
   },
   "team": {
-    "assetId": 9473,
+    "assetId": 37131,
     "displayId": "TM-1",
-    "name": "12"
+    "name": "AutomationRegressionSuite"
   },
   "tree": [
     {
-      "assetId": 9497,
-      "displayId": "TC-6",
-      "name": "AddMultipleProductsToCart",
-      "kind": "test-case",
-      "repoPath": "TC-6-AddMultipleProductsToCart.spec.ts"
-    },
-    {
-      "assetId": 9496,
-      "displayId": "TC-5",
-      "name": "AddSingleProductToCart",
-      "kind": "test-case",
-      "repoPath": "TC-5-AddSingleProductToCart.spec.ts"
-    },
-    {
-      "assetId": 11593,
-      "displayId": "AG-1",
-      "name": "agent2",
-      "kind": "agent",
-      "repoPath": "AG-1-agent2.agent.json"
-    },
-    {
-      "assetId": 10702,
-      "displayId": "TC-9",
-      "name": "CheckOwnerNamereflect",
-      "kind": "test-case",
-      "repoPath": "TC-9-CheckOwnerNamereflect.spec.ts"
-    },
-    {
-      "assetId": 11258,
-      "displayId": "TC-11",
-      "name": "CS_new",
-      "kind": "test-case",
-      "repoPath": "TC-11-CS_new.spec.ts"
-    },
-    {
-      "assetId": 11261,
-      "displayId": "TC-14",
-      "name": "CS_new1 - Copy",
-      "kind": "test-case",
-      "repoPath": "TC-14-CS_new1-Copy.spec.ts"
-    },
-    {
-      "assetId": 11590,
-      "displayId": "TC-15",
-      "name": "t1234",
-      "kind": "test-case",
-      "repoPath": "TC-15-t1234.spec.ts"
-    },
-    {
-      "assetId": 11591,
-      "displayId": "TC-16",
-      "name": "t56789",
-      "kind": "test-case",
-      "repoPath": "TC-16-t56789.spec.ts"
+      "assetId": 37232,
+      "displayId": "FD-6",
+      "name": "ServiceNow",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 37241,
+          "displayId": "FD-9",
+          "name": "Commons",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 37243,
+              "displayId": "TC-6",
+              "name": "AddRequestedItem",
+              "kind": "test-case",
+              "repoPath": "ServiceNow/Commons/TC-6-AddRequestedItem.spec.ts"
+            }
+          ]
+        },
+        {
+          "assetId": 37238,
+          "displayId": "FD-8",
+          "name": "Helpers",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 37272,
+              "displayId": "TS-8",
+              "name": "AddProductToCart",
+              "kind": "typescript",
+              "repoPath": "ServiceNow/Helpers/TS-8-AddProductToCart.ts"
+            }
+          ]
+        },
+        {
+          "assetId": 37248,
+          "displayId": "FD-10",
+          "name": "Pages",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 37249,
+              "displayId": "TS-5",
+              "name": "businessapplication.locators",
+              "kind": "typescript",
+              "repoPath": "ServiceNow/Pages/TS-5-businessapplication.locators.ts"
+            }
+          ]
+        }
+      ]
     }
   ],
   "files": [
     {
-      "assetId": 11593,
-      "assetKind": "agent",
-      "displayId": "AG-1",
-      "name": "agent2",
-      "repoPath": "AG-1-agent2.agent.json",
-      "parentAssetId": 9473
-    },
-    {
-      "assetId": 11258,
-      "assetKind": "test-case",
-      "displayId": "TC-11",
-      "name": "CS_new",
-      "repoPath": "TC-11-CS_new.spec.ts",
-      "parentAssetId": 9473
-    },
-    {
-      "assetId": 11261,
-      "assetKind": "test-case",
-      "displayId": "TC-14",
-      "name": "CS_new1 - Copy",
-      "repoPath": "TC-14-CS_new1-Copy.spec.ts",
-      "parentAssetId": 9473
-    },
-    {
-      "assetId": 11590,
-      "assetKind": "test-case",
-      "displayId": "TC-15",
-      "name": "t1234",
-      "repoPath": "TC-15-t1234.spec.ts",
-      "parentAssetId": 9473
-    },
-    {
-      "assetId": 11591,
-      "assetKind": "test-case",
-      "displayId": "TC-16",
-      "name": "t56789",
-      "repoPath": "TC-16-t56789.spec.ts",
-      "parentAssetId": 9473
-    },
-    {
-      "assetId": 9496,
-      "assetKind": "test-case",
-      "displayId": "TC-5",
-      "name": "AddSingleProductToCart",
-      "repoPath": "TC-5-AddSingleProductToCart.spec.ts",
-      "parentAssetId": 9473
-    },
-    {
-      "assetId": 9497,
+      "assetId": 37243,
       "assetKind": "test-case",
       "displayId": "TC-6",
-      "name": "AddMultipleProductsToCart",
-      "repoPath": "TC-6-AddMultipleProductsToCart.spec.ts",
-      "parentAssetId": 9473
+      "name": "AddRequestedItem",
+      "repoPath": "ServiceNow/Commons/TC-6-AddRequestedItem.spec.ts",
+      "parentAssetId": 37241
     },
     {
-      "assetId": 10702,
-      "assetKind": "test-case",
-      "displayId": "TC-9",
-      "name": "CheckOwnerNamereflect",
-      "repoPath": "TC-9-CheckOwnerNamereflect.spec.ts",
-      "parentAssetId": 9473
+      "assetId": 37272,
+      "assetKind": "typescript",
+      "displayId": "TS-8",
+      "name": "AddProductToCart",
+      "repoPath": "ServiceNow/Helpers/TS-8-AddProductToCart.ts",
+      "parentAssetId": 37238
+    },
+    {
+      "assetId": 37249,
+      "assetKind": "typescript",
+      "displayId": "TS-5",
+      "name": "businessapplication.locators",
+      "repoPath": "ServiceNow/Pages/TS-5-businessapplication.locators.ts",
+      "parentAssetId": 37248
     }
   ]
 }
